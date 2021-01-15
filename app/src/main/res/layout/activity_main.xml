@@ -4,10 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/HappyBirthday_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Happy Birthday Andrew" />
+
+
+
+
+
+
+    '<TextView
+    android:id="@+id/from_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="From Dad"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:textSize="100sp"
+    android:textColor="black"
+    />
+
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
 </RelativeLayout>
