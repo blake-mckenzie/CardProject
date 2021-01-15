@@ -7,39 +7,30 @@
 
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/thiccauraskin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thiccauraskin" />
+
+
+    '
+
     <TextView
         android:id="@+id/HappyBirthday_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Andrew" />
+        android:text="Come Boogie Down "
+        android:textSize="75sp" />
 
-
-
-
-
-
-    '<TextView
+    <TextView
     android:id="@+id/from_textview"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="From Dad"
+    android:text="At My House This Weekend"
     android:layout_alignParentBottom="true"
     android:layout_alignParentRight="true"
-    android:textSize="100sp"
-    android:textColor="black"
-    />
-
-
-    <ImageView
-        android:id="@+id/background_image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <ImageView
-        android:id="@+id/background_image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/background" />
-
+    android:textSize="75sp" />
 </RelativeLayout>
